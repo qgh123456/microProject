@@ -29,7 +29,7 @@
         <velocity>2.0</velocity>
         <commons-lang3-version>3.9</commons-lang3-version>
         <easy-excel.version>2.1.4</easy-excel.version>
-        <fast-json.version>1.1.41</fast-json.version>
+        <fast-json.version>1.2.25.sec10</fast-json.version>
         <metamodel.version>5.3.2</metamodel.version>
         <spring-cloud.version>Hoxton.RELEASE</spring-cloud.version>
     </properties>
