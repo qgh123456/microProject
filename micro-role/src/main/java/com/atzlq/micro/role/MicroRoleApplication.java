@@ -3,9 +3,16 @@ package com.atzlq.micro.role;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication
-@MapperScan(basePackages = "com.atzlq.micro.user.**.mapper")
+@EnableSwagger2
+@EnableDiscoveryClient
+@RefreshScope
+//@EnableFeignClients
+@MapperScan(basePackages = "com.atzlq.micro.role.**.mapper")
 public class MicroRoleApplication {
 
     public static void main(String[] args) {
