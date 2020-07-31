@@ -27,7 +27,7 @@
 #  configuration:
 #    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 #  #配置mapper xml文件的路径
-#  mapper-locations: classpath:com/atzlq/micro/role/mapper/xml/*.xml
+#  mapper-locations: classpath:com/atzlq/micro/role/dao/xml/*.xml
 #  global-config:
 #    db-config:
 #      logic-delete-value: 1
