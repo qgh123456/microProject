@@ -73,7 +73,6 @@
             <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
             <version>0.2.2.RELEASE</version>
         </dependency>
-
         <!-- mybatisplus-->
         <dependency>
             <groupId>com.baomidou</groupId>
