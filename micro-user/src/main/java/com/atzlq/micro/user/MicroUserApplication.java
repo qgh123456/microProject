@@ -14,7 +14,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableSwagger2
 @EnableDiscoveryClient
 //@EnableFeignClients
-@MapperScan(basePackages = "com.atzlq.micro.user.**.mapper")
+@MapperScan(basePackages = "com.atzlq.micro.user.**.dao")
 public class MicroUserApplication {
 
     public static void main(String[] args) {
