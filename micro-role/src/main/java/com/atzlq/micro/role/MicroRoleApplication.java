@@ -11,7 +11,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableSwagger2
 @EnableDiscoveryClient
 //@EnableFeignClients
-@MapperScan(basePackages = "com.atzlq.micro.role.**.mapper")
+@MapperScan(basePackages = "com.atzlq.micro.role.**.dao")
 public class MicroRoleApplication {
 
     public static void main(String[] args) {
