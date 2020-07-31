@@ -7,10 +7,12 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
+/**
+ *  这个地方
+ */
 @SpringBootApplication
 @EnableSwagger2
 @EnableDiscoveryClient
-@RefreshScope
 //@EnableFeignClients
 @MapperScan(basePackages = "com.atzlq.micro.user.**.mapper")
 public class MicroUserApplication {
