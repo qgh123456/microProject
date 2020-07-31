@@ -1,44 +1,39 @@
-# 端口
-server:
-  port: 8100
-
-# 服务名
-spring:
-  application:
-    name: micro-user
-
-  # mysyl 数据库连接
-  datasource:
-    driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://47.98.136.239:3310/micro_project?characterEncoding=utf-8&useSSL=false
-    username: root
-    password: root
-    type: com.zaxxer.hikari.HikariDataSource
-    hikari:
-      pool-name=HikariPool: HikariPool
-      maximum-pool-size: 12
-      connection-timeout: 60000
-      minimum-idle: 10
-      idle-timeout: 500000
-      max-lifetime: 540000
-      connection-test-query: SELECT 1
-  jackson:
-    date-format: yyyy-MM-dd HH:mm:ss
-    time-zone: GMT+8
-  aop:
-    auto: true
-#mybatis日志  在控制台上打印sql语句
-mybatis-plus:
-  configuration:
-    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
-  #配置mapper xml文件的路径
-  mapper-locations: classpath:com/atzlq/micro/user/mapper/xml/*.xml
-  global-config:
-    db-config:
-      logic-delete-value: 1
-      logic-not-delete-value: 0
-
-logging:
-  level: info
-
-
+## 端口
+#server:
+#  port: 8100
+#
+#  # mysyl 数据库连接
+#  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+#    url: jdbc:mysql://47.98.136.239:3310/micro_project?characterEncoding=utf-8&useSSL=false
+#    username: root
+#    password: root
+#    type: com.zaxxer.hikari.HikariDataSource
+#    hikari:
+#      pool-name=HikariPool: HikariPool
+#      maximum-pool-size: 12
+#      connection-timeout: 60000
+#      minimum-idle: 10
+#      idle-timeout: 500000
+#      max-lifetime: 540000
+#      connection-test-query: SELECT 1
+#  jackson:
+#    date-format: yyyy-MM-dd HH:mm:ss
+#    time-zone: GMT+8
+#  aop:
+#    auto: true
+##mybatis日志  在控制台上打印sql语句
+#mybatis-plus:
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+#  #配置mapper xml文件的路径
+#  mapper-locations: classpath:com/atzlq/micro/user/mapper/xml/*.xml
+#  global-config:
+#    db-config:
+#      logic-delete-value: 1
+#      logic-not-delete-value: 0
+#
+#logging:
+#  level: info
+#
+#

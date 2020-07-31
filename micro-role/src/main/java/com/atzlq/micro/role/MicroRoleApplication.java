@@ -10,7 +10,6 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @SpringBootApplication
 @EnableSwagger2
 @EnableDiscoveryClient
-@RefreshScope
 //@EnableFeignClients
 @MapperScan(basePackages = "com.atzlq.micro.role.**.mapper")
 public class MicroRoleApplication {
