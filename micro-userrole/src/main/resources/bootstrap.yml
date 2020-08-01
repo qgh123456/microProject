@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: micro-service-userRole
+  cloud:
+    nacos:
+      config:
+        server-addr: 47.98.136.239:8848
+        namespace: bcc3fc11-7d5e-46c9-b4e5-b5faf06563ea
+        file-extension: yml  # 默认找服务名.properties文件
