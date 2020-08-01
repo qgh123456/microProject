@@ -7,3 +7,5 @@ spring:
         server-addr: 47.98.136.239:8848
         namespace: 660812d5-d33b-44b8-b2ee-1d7c62d3b7a6
         file-extension: yml  # 默认找服务名.properties文件
+      discovery:
+        server-addr: 47.98.136.239:8848
