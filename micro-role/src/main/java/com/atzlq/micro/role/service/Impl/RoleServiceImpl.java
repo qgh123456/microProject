@@ -10,5 +10,4 @@ import org.springframework.stereotype.Service;
 public class RoleServiceImpl extends ServiceImpl<RoleDao, RoleEntity> implements RoleService {
 
 
-
 }

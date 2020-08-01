@@ -8,7 +8,7 @@ import org.springframework.cloud.context.config.annotation.RefreshScope;
 import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 /**
- *  这个地方
+ * 这个地方
  */
 @SpringBootApplication
 @EnableSwagger2
