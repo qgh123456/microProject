@@ -49,6 +49,12 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        <!--这个地方是多余的，上面已经有了，但是我这个地方是在Interface中去用-->
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus</artifactId>
+            <version>${mybatisplus.version}</version>
+        </dependency>
 
         <dependency>
             <groupId>mysql</groupId>
