@@ -1,6 +1,6 @@
 package com.atzlq.micro.userRole.dao;
 
-import com.atzlq.micro.userRole.entity.UserRoleEntity;
+import com.atzlq.micro.userrole.entity.UserRoleEntity;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 
 /**

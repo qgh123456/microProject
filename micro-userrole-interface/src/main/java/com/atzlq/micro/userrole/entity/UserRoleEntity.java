@@ -1,11 +1,10 @@
-package com.atzlq.micro.userRole.entity;
+package com.atzlq.micro.userrole.entity;
 
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
-
 import java.io.Serializable;
 
 /**
