@@ -1,4 +1,4 @@
-package com.atzlq.micro.role.controller;
+package com.atzlq.micro.userRole.controller;
 
 import io.swagger.annotations.Api;
 import org.springframework.web.bind.annotation.*;

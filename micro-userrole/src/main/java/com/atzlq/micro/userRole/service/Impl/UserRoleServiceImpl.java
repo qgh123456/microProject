@@ -1,8 +1,8 @@
-package com.atzlq.micro.role.service.Impl;
+package com.atzlq.micro.userRole.service.Impl;
 
-import com.atzlq.micro.role.dao.UserRoleDao;
-import com.atzlq.micro.role.entity.UserRoleEntity;
-import com.atzlq.micro.role.service.UserRoleService;
+import com.atzlq.micro.userRole.dao.UserRoleDao;
+import com.atzlq.micro.userRole.entity.UserRoleEntity;
+import com.atzlq.micro.userRole.service.UserRoleService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 

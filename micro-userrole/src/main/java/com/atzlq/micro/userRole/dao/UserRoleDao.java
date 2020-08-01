@@ -1,8 +1,7 @@
-package com.atzlq.micro.role.dao;
+package com.atzlq.micro.userRole.dao;
 
-import com.atzlq.micro.role.entity.UserRoleEntity;
+import com.atzlq.micro.userRole.entity.UserRoleEntity;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import org.apache.ibatis.annotations.Mapper;
 
 /**
  * 用户角色表

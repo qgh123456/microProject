@@ -1,6 +1,7 @@
-package com.atzlq.micro.role.service;
+package com.atzlq.micro.userRole.service;
 
-import com.atzlq.micro.role.entity.UserRoleEntity;
+
+import com.atzlq.micro.userRole.entity.UserRoleEntity;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**
