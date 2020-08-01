@@ -2,7 +2,6 @@ package com.atzlq.micro.role.dao;
 
 import com.atzlq.micro.role.entity.RoleEntity;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import org.apache.ibatis.annotations.Mapper;
 
 /**
  * 角色表

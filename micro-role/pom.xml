@@ -30,6 +30,11 @@
             <artifactId>micro-common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>org.atzlq</groupId>
+            <artifactId>micro-role-interface</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
 
         <!--  服务的注册与配置中心-->
         <!--        <dependency>
