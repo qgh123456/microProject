@@ -37,8 +37,6 @@ public class RoleController {
 
         // 通过角色id获取角色的详细信息
         RoleEntity role = this.roleService.getById(roleId);
-
-
         // 通过角色id获取用户角色的关联表信息
         Result userRole = this.userRoleClient.getUserRoleById(roleId, userId);
         // 通过用户id获取用户信息
