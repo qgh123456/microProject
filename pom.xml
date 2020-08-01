@@ -8,9 +8,12 @@
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
+    <!--这里是一键构建,构建的顺序与module的放置的顺序无关-->
     <modules>
         <module>micro-common</module>
         <module>micro-role-interface</module>
+        <module>micro-user-interface</module>
+        <module>micro-userrole-interface</module>
     </modules>
 
 </project>
