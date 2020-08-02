@@ -1,3 +1,5 @@
+server:
+  port: 8180
 spring:
   application:
     name: micro-service-user
@@ -7,5 +9,3 @@ spring:
         server-addr: 47.98.136.239:8848
         namespace: f5ed489f-16b5-4d56-80e1-b90f259f28ec
         file-extension: yml  # 默认找服务名.properties文件
-      discovery:
-        server-addr: 47.98.136.239:8848

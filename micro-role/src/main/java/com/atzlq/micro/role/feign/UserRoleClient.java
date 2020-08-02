@@ -15,6 +15,4 @@ import org.springframework.web.bind.annotation.PathVariable;
 @FeignClient("micro-service-userRole")
 public interface UserRoleClient extends UserRoleApi {
 
-//    @GetMapping("/userrole/getUserRoleById/{userId}/{roleId}")
-//    Result getUserRoleById(@PathVariable(value = "userId") Integer userId,@PathVariable(value = "roleId") Integer roleId);
 }

@@ -1,11 +1,11 @@
 server:
-  port: 8280
+  port: 8090
 spring:
   application:
-    name: micro-service-userRole
+    name: micro-service-gateway
   cloud:
     nacos:
       config:
         server-addr: 47.98.136.239:8848
-        namespace: bcc3fc11-7d5e-46c9-b4e5-b5faf06563ea
+        namespace: ed41888e-f330-4a8a-9a48-2b3088a43c69
         file-extension: yml  # 默认找服务名.properties文件
