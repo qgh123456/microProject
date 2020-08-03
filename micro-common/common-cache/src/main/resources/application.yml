@@ -1,0 +1,14 @@
+spring:
+  redis:
+    database: 0
+    lettuce:
+      pool:
+        max-active: 256
+        max-wait: 30000
+        max-idle: 64
+        min-idle: 32
+      shutdown-timeout: 100ms
+    password: 920619
+    sentinel:
+      master: mymaster
+      nodes: 114.55.65.131:26379,114.55.65.131:26380,114.55.65.131:26381
