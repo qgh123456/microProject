@@ -1,10 +1,7 @@
 package com.atzlq.micro.role.feign;
 
-import com.atzlq.micro.common.vo.Result;
 import com.atzlq.micro.userrole.api.UserRoleApi;
 import org.springframework.cloud.openfeign.FeignClient;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
 
 /**
  * @ProjectName: micro-project

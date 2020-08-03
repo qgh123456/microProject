@@ -1,6 +1,6 @@
 package com.atzlq.micro.role.controller;
 
-import com.atzlq.micro.common.vo.Result;
+import com.atzlq.micro.common.core.vo.Result;
 import com.atzlq.micro.role.entity.RoleEntity;
 import com.atzlq.micro.role.feign.UserClient;
 import com.atzlq.micro.role.feign.UserRoleClient;

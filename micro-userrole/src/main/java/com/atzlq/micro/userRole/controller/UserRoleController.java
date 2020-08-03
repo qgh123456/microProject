@@ -1,6 +1,6 @@
 package com.atzlq.micro.userRole.controller;
 
-import com.atzlq.micro.common.vo.Result;
+import com.atzlq.micro.common.core.vo.Result;
 import com.atzlq.micro.userRole.service.UserRoleService;
 import com.atzlq.micro.userrole.entity.UserRoleEntity;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;

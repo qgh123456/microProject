@@ -1,6 +1,6 @@
 package com.atzlq.micro.user.controller;
 
-import com.atzlq.micro.common.vo.Result;
+import com.atzlq.micro.common.core.vo.Result;
 import com.atzlq.micro.user.entity.UserEntity;
 import com.atzlq.micro.user.service.UserService;
 import io.swagger.annotations.Api;
@@ -27,7 +27,7 @@ public class UserController {
 
     @GetMapping("/getUserById/{userId}")
     public Result getUserById(Integer userId){
-
+        System.out.println("2");
         // 通过userId查询出用户信息
         UserEntity userEntity = this.userService.getById(userId);
         return Result.ok().data(userEntity);

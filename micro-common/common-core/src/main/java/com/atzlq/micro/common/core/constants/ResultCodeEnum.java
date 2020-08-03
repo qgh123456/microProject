@@ -1,4 +1,4 @@
-package com.atzlq.micro.common.constants;
+package com.atzlq.micro.common.core.constants;
 
 import lombok.Getter;
 

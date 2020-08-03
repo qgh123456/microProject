@@ -1,4 +1,4 @@
-package com.atzlq.micro.common.util;
+package com.atzlq.micro.common.core.util;
 
 import java.io.IOException;
 import java.io.PrintWriter;

@@ -1,4 +1,4 @@
-package com.atzlq.micro.common.config;
+package com.atzlq.micro.common.core.config;
 
 import com.baomidou.mybatisplus.core.injector.ISqlInjector;
 import com.baomidou.mybatisplus.extension.injector.LogicSqlInjector;

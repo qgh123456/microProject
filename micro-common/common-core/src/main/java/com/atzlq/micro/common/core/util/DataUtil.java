@@ -1,4 +1,4 @@
-package com.atzlq.micro.common.util;
+package com.atzlq.micro.common.core.util;
 
 import java.util.Random;
 

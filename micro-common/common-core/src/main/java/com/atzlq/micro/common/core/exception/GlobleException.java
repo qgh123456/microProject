@@ -1,6 +1,6 @@
-package com.atzlq.micro.common.exception;
+package com.atzlq.micro.common.core.exception;
 
-import com.atzlq.micro.common.constants.ResultCodeEnum;
+import com.atzlq.micro.common.core.constants.ResultCodeEnum;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;

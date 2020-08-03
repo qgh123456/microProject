@@ -1,6 +1,6 @@
 package com.atzlq.micro.userrole.api;
 
-import com.atzlq.micro.common.vo.Result;
+import com.atzlq.micro.common.core.vo.Result;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
