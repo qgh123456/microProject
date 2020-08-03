@@ -1,6 +1,6 @@
-package com.atzlq.micro.vo;
+package com.atzlq.micro.common.core.vo;
 
-import com.atzlq.micro.constants.ResultCodeEnum;
+import com.atzlq.micro.common.core.constants.ResultCodeEnum;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;

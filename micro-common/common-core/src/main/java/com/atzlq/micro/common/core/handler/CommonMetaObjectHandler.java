@@ -1,4 +1,4 @@
-package com.atzlq.micro.handler;
+package com.atzlq.micro.common.core.handler;
 
 import com.baomidou.mybatisplus.core.handlers.MetaObjectHandler;
 import lombok.extern.slf4j.Slf4j;

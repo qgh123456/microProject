@@ -12,11 +12,11 @@
     <packaging>jar</packaging>
 
     <dependencies>
-        <dependency>
+    <!--    <dependency>
             <groupId>org.atzlq</groupId>
             <artifactId>common-security</artifactId>
             <version>0.0.1-SNAPSHOT</version>
-        </dependency>
+        </dependency>-->
 
         <dependency>
             <groupId>org.springframework.boot</groupId>

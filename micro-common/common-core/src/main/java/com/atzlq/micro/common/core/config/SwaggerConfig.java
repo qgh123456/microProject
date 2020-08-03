@@ -1,4 +1,4 @@
-package com.atzlq.micro.config;
+package com.atzlq.micro.common.core.config;
 
 import io.swagger.annotations.Api;
 import org.springframework.context.annotation.Bean;

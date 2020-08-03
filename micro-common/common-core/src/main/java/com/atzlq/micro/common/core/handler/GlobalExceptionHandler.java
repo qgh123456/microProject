@@ -1,9 +1,9 @@
-package com.atzlq.micro.handler;
+package com.atzlq.micro.common.core.handler;
 
-import com.atzlq.micro.constants.ResultCodeEnum;
-import com.atzlq.micro.exception.GlobleException;
-import com.atzlq.micro.util.ExceptionUtil;
-import com.atzlq.micro.vo.Result;
+import com.atzlq.micro.common.core.exception.GlobleException;
+import com.atzlq.micro.common.core.util.ExceptionUtil;
+import com.atzlq.micro.common.core.constants.ResultCodeEnum;
+import com.atzlq.micro.common.core.vo.Result;
 import lombok.extern.slf4j.Slf4j;
 import org.hibernate.validator.internal.engine.path.PathImpl;
 import org.springframework.http.HttpStatus;
