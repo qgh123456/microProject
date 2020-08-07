@@ -12,11 +12,10 @@
     <packaging>jar</packaging>
 
     <dependencies>
-    <!--    <dependency>
+        <dependency>
             <groupId>org.atzlq</groupId>
-            <artifactId>common-security</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>-->
+            <artifactId>common-cache</artifactId>
+        </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -63,6 +62,16 @@
         <dependency>
             <groupId>io.springfox</groupId>
             <artifactId>springfox-swagger-ui</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>com.auth0</groupId>
+            <artifactId>java-jwt</artifactId>
         </dependency>
 
     </dependencies>

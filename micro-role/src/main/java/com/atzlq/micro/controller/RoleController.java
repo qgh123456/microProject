@@ -1,6 +1,6 @@
 package com.atzlq.micro.controller;
 
-import com.atzlq.micro.vo.Result;
+import com.atzlq.micro.common.core.vo.Result;
 import com.atzlq.micro.feign.UserRoleClient;
 import com.atzlq.micro.entity.RoleEntity;
 import com.atzlq.micro.feign.UserClient;
@@ -33,7 +33,7 @@ public class RoleController {
     private UserRoleClient userRoleClient;
 
     @GetMapping("/getUserDetail/{roleId}/{userId}")
-    public Result getUserDetail(@PathVariable(value = "roleId") Integer roleId,@PathVariable(value = "userId") Integer userId){
+    public Result getUserDetail(@PathVariable(value = "roleId") Integer roleId, @PathVariable(value = "userId") Integer userId){
 
         // 通过角色id获取角色的详细信息
         RoleEntity role = this.roleService.getById(roleId);

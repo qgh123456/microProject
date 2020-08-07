@@ -15,7 +15,8 @@ public enum ResultCodeEnum {
 	JSON_PARSE_ERROR(false, 21002, "json解析异常"),
 	PARAM_ERROR(false, 21003, "参数不正确"),
 	FILE_UPLOAD_ERROR(false, 21004, "文件上传错误"),
-	EXCEL_DATA_IMPORT_ERROR(false, 21005, "Excel数据导入错误");
+	EXCEL_DATA_IMPORT_ERROR(false, 21005, "Excel数据导入错误"),
+	JWTTOKEN_VERIFY_ERROR(false, 22001, "Excel数据导入错误");
 
 
 	private Boolean success;//响应是否成功

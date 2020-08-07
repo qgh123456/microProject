@@ -215,7 +215,7 @@ public final class RedisUtil {
 
     /**
      *
-     * HashSet
+     * HashMap
      *
      * @param key 键
      * @param map 对应多个键值
