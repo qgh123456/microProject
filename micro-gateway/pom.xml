@@ -26,11 +26,11 @@
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 
-        <dependency>
+<!--        <dependency>
             <groupId>org.atzlq</groupId>
             <artifactId>micro-auth-interface</artifactId>
             <version>0.0.1-SNAPSHOT</version>
-        </dependency>
+        </dependency>-->
         <!--  服务的注册与配置中心-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
